@@ -1,0 +1,93 @@
+{
+	"name": "xinux",
+	"version": "3.4.2",
+	"private": true,
+	"main": "main.js",
+	"description": "Xinux O'zbekiston jamiyatiga xush kelibsiz",
+	"authors": {
+		"name": "Geno Ferollo a.k.a Genemator",
+		"email": "genemators@gmail.com"
+	},
+	"author": "Geno Ferollo <genemators@gmail.com>",
+	"contributors": [
+		"Muhammadyusuf Abdurakhimov"
+	],
+	"build": {
+		"appId": "uz.bsba.xinux",
+		"icon": "src/.vuepress/public/xinux.png",
+		"dmg": {
+			"icon": false
+		},
+		"productName": "Xinux",
+		"files": [
+			"build/**/*",
+			"main.js"
+		],
+		"win": {},
+		"linux": {
+			"target": [
+				"AppImage",
+				"tar.xz",
+				"deb",
+				"rpm"
+			],
+			"category": "Education"
+		},
+		"mac": {
+			"category": "public.app-category.education"
+		}
+	},
+	"engines": {
+		"node": ">=12.18.0",
+		"npm": ">=6.14.5",
+		"yarn": ">=1.22.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/xinuxuz/docs.git",
+		"link": "https://github.com/xinuxuz/docs"
+	},
+	"scripts": {
+		"dev": "vuepress dev src",
+		"render": "vuepress build src",
+		"format": "prettier --write --check \"**/*.{js,json,md,vue}\"\n",
+		"format:check": "prettier --check \"**/*.{js,json,md,vue}\"\n",
+		"electron": "wait-on http://localhost:8080 && electron .",
+		"electron-dev": "concurrently \"yarn run dev\" \"yarn run electron\"",
+		"postinstall": "electron-builder install-app-deps",
+		"prebuild": "yarn render",
+		"build": "electron-builder",
+		"release": "electron-builder --publish always"
+	},
+	"license": "GPL-3.0",
+	"bugs": {
+		"url": "https://github.com/xinuxuz/docs/issues"
+	},
+	"homepage": "https://github.com/xinuxuz/docs#readme",
+	"keywords": [
+		"Genemator",
+		"Docs",
+		"Docster",
+		"Vue",
+		"Vuepress"
+	],
+	"dependencies": {
+		"electron-log": "^4.3.1",
+		"electron-serve": "^1.1.0",
+		"electron-squirrel-startup": "^1.0.0",
+		"update-electron-app": "^2.0.1",
+		"vuepress-plugin-code-copy": "^1.0.6",
+		"vuepress-plugin-gitalk-maker": "^0.1.0",
+		"vuepress-plugin-reading-progress": "^1.0.10",
+		"vuepress-theme-xenon": "^2.4.5"
+	},
+	"devDependencies": {
+		"@vuepress/plugin-pwa": "^1.8.0",
+		"concurrently": "^5.3.0",
+		"electron": "^11.2.3",
+		"electron-builder": "^22.9.1",
+		"prettier": "^2.2.1",
+		"vuepress": "^1.8.0",
+		"wait-on": "^5.2.1"
+	}
+}

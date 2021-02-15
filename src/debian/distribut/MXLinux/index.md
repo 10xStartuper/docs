@@ -1,0 +1,1 @@
+# MXLinux haqida infolar

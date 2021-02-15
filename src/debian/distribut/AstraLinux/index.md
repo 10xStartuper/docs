@@ -1,0 +1,1 @@
+# AstraLinux haqida infolar

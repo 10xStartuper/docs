@@ -1,0 +1,1 @@
+# AntiX haqida infolar

@@ -1,0 +1,3 @@
+*.js linguist-language=Vue
+*.styl linguist-language=Vue
+*.md linguist-language=Vue

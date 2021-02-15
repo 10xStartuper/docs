@@ -1,0 +1,1 @@
+# Interfeys haqida ma'lumotlar
