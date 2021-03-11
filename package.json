@@ -79,7 +79,7 @@
 		"vuepress-plugin-code-copy": "^1.0.6",
 		"vuepress-plugin-gitalk-maker": "^0.1.0",
 		"vuepress-plugin-reading-progress": "^1.0.10",
-		"vuepress-theme-xenon": "^2.4.5"
+		"vuepress-theme-xenon": "^2.4.7"
 	},
 	"devDependencies": {
 		"@vuepress/plugin-pwa": "^1.8.0",
