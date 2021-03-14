@@ -50,7 +50,7 @@ yarn run build && mv src/.vuepress/dist ./dist
 > manbaga o'zgartirish kiritsangiz va o'zingizniki qilib olsangiz, manbaning
 > bosh manbasiga ssilka qoldirishingiz GNU Lesser General Public License v3.0
 > litzensiyasi bo'yicha darmoqdir. Ko'proq ma'lumotga ega bo'lish uchun
-> [LICENSE](LICENSE) ni ko'zdan kechiring.
+> [LICENSE](license) ni ko'zdan kechiring.
 
 <p align="center">Barcha huquqlar himoyalangan &copy; 2021 <a href="https://xinux.uz" target="_blank">Xinux Jamiyati</a></p>
 
