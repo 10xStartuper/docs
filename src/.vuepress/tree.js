@@ -132,11 +132,11 @@ module.exports = {
 					collapsable: false,
 					children: [
 						"",
-						"/debian/distribut/CentOS/ornatish",
-						"/debian/distribut/CentOS/maslahatlar",
-						"/debian/distribut/CentOS/interfeys",
-						"/debian/distribut/CentOS/solishtirish",
-						"/debian/distribut/CentOS/yuklash",
+						"/debian/distribut/AntiX/ornatish",
+						"/debian/distribut/AntiX/maslahatlar",
+						"/debian/distribut/AntiX/interfeys",
+						"/debian/distribut/AntiX/solishtirish",
+						"/debian/distribut/AntiX/yuklash",
 					],
 				},
 			],
@@ -202,7 +202,7 @@ module.exports = {
 				ariaLabel: "Distributlar",
 				items: [
 					{
-						text: "Ubuntu",
+						text: "CentOS",
 						link: "/redhat/distribut/CentOS/",
 					},
 				],
