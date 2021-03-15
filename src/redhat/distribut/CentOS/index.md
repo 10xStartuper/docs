@@ -1,0 +1,1 @@
+# CentOS haqida infolar

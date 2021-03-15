@@ -11,6 +11,7 @@ module.exports = {
 	locales: {
 		"/": heads.main.head,
 		"/debian/": heads.debian.head,
+		"/redhat/": heads.redhat.head,
 	},
 	head: head,
 	themeConfig: {
@@ -29,6 +30,7 @@ module.exports = {
 		locales: {
 			"/": tree.main,
 			"/debian/": tree.debian,
+			"/redhat/": tree.redhat,
 		},
 	},
 	plugins: plugins,

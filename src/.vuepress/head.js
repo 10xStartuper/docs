@@ -13,4 +13,10 @@ module.exports = {
 			description: "Debian turkumiga oid bo'lgan Xinux qo'llanmasi",
 		},
 	},
+	redhat: {
+		head: {
+			title: "Red Hat | Xinux",
+			description: "Red Hat turkumiga oid bo'lgan Xinux qo'llanmasi",
+		},
+	},
 };

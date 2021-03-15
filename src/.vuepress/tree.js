@@ -81,7 +81,7 @@ module.exports = {
 						link: "/debian/distribut/Raspbian/",
 					},
 					{
-						text: "AntiX",
+						text: "CentOS",
 						link: "/debian/distribut/AntiX/",
 					},
 				],
@@ -128,15 +128,15 @@ module.exports = {
 			],
 			"/debian/distribut/AntiX/": [
 				{
-					title: "AntiX",
+					title: "CentOS",
 					collapsable: false,
 					children: [
 						"",
-						"/debian/distribut/AntiX/ornatish",
-						"/debian/distribut/AntiX/maslahatlar",
-						"/debian/distribut/AntiX/interfeys",
-						"/debian/distribut/AntiX/solishtirish",
-						"/debian/distribut/AntiX/yuklash",
+						"/debian/distribut/CentOS/ornatish",
+						"/debian/distribut/CentOS/maslahatlar",
+						"/debian/distribut/CentOS/interfeys",
+						"/debian/distribut/CentOS/solishtirish",
+						"/debian/distribut/CentOS/yuklash",
 					],
 				},
 			],
@@ -179,6 +179,71 @@ module.exports = {
 						"/debian/distribut/Raspbian/interfeys",
 						"/debian/distribut/Raspbian/solishtirish",
 						"/debian/distribut/Raspbian/yuklash",
+					],
+				},
+			],
+		},
+	},
+	redhat: {
+		selectText: "Turkum",
+		label: "Red Hat",
+		ariaLabel: "Turkumlar",
+		nav: [
+			{
+				text: "Asosiy",
+				link: "/",
+			},
+			{
+				text: "Ma'lumot",
+				link: "/redhat/malumot/",
+			},
+			{
+				text: "Distribut",
+				ariaLabel: "Distributlar",
+				items: [
+					{
+						text: "Ubuntu",
+						link: "/redhat/distribut/CentOS/",
+					},
+				],
+			},
+			{
+				text: "Tarmoq",
+				ariaLabel: "Tarmoqlarimiz",
+				items: socials,
+			},
+			{
+				text: "Dasturlar",
+				ariaLabel: "Dasturlarimiz",
+				items: apps,
+			},
+		],
+		sidebar: {
+			"/redhat/malumot/": [
+				{
+					title: "Ma'lumotlar",
+					collapsable: false,
+					children: [""],
+				},
+			],
+			"/redhat/jamoa/": [
+				{
+					title: "Jamoamiz",
+					collapsable: false,
+					children: [""],
+				},
+			],
+			"/redhat/distribut/CentOS/": [
+				{
+					title: "CentOS",
+					collapsable: false,
+					children: [
+						"",
+						"/redhat/distribut/CentOS/ornatish",
+						"/redhat/distribut/CentOS/maslahatlar",
+						"/redhat/distribut/CentOS/interfeys",
+						"/redhat/distribut/CentOS/solishtirish",
+						"/redhat/distribut/CentOS/yuklash",
 					],
 				},
 			],
