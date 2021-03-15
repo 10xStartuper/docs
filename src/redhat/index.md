@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /debian.svg
+heroImage: /redhat.svg
 tagline: Red Hat turkumiga oid bo'lgan Xinux qo'llanmasi
 actionText: Ma'lumot →
 actionLink: /redhat/malumot/
