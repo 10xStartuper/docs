@@ -271,15 +271,15 @@ module.exports = {
 			],
 			"/debian/distribut/Raspbian/": [
 				{
-					title: "Black Arch",
+					title: "Raspbian",
 					collapsable: false,
 					children: [
 						"",
-						"/debian/distribut/Black Arch/ornatish",
-						"/debian/distribut/Black Arch/maslahatlar",
-						"/debian/distribut/Black Arch/interfeys",
-						"/debian/distribut/Black Arch/solishtirish",
-						"/debian/distribut/Black Arch/yuklash",
+						"/debian/distribut/Raspbian/ornatish",
+						"/debian/distribut/Raspbian/maslahatlar",
+						"/debian/distribut/Raspbian/interfeys",
+						"/debian/distribut/Raspbian/solishtirish",
+						"/debian/distribut/Raspbian/yuklash",
 					],
 				},
 			],
