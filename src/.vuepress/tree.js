@@ -166,7 +166,7 @@ module.exports = {
 				ariaLabel: "Distributlar",
 				items: [
 					{
-						text: "Manjaro",
+						text: "Ubuntu",
 						link: "/debian/distribut/Ubuntu/",
 					},
 					{
@@ -178,7 +178,7 @@ module.exports = {
 						link: "/debian/distribut/MXLinux/",
 					},
 					{
-						text: "Black Arch",
+						text: "Raspbian",
 						link: "/debian/distribut/Raspbian/",
 					},
 					{
@@ -215,21 +215,21 @@ module.exports = {
 			],
 			"/debian/distribut/Ubuntu/": [
 				{
-					title: "Manjaro",
+					title: "Ubuntu",
 					collapsable: false,
 					children: [
 						"",
-						"/debian/distribut/Manjaro/ornatish",
-						"/debian/distribut/Manjaro/maslahatlar",
-						"/debian/distribut/Manjaro/interfeys",
-						"/debian/distribut/Manjaro/solishtirish",
-						"/debian/distribut/Manjaro/yuklash",
+						"/debian/distribut/Ubuntu/ornatish",
+						"/debian/distribut/Ubuntu/maslahatlar",
+						"/debian/distribut/Ubuntu/interfeys",
+						"/debian/distribut/Ubuntu/solishtirish",
+						"/debian/distribut/Ubuntu/yuklash",
 					],
 				},
 			],
 			"/debian/distribut/AntiX/": [
 				{
-					title: "CentOS",
+					title: "AntiX",
 					collapsable: false,
 					children: [
 						"",
