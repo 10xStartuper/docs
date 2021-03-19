@@ -10,6 +10,7 @@ module.exports = {
 	theme: "xenon",
 	locales: {
 		"/": heads.main.head,
+		"/arch/": heads.arch.head,
 		"/debian/": heads.debian.head,
 		"/redhat/": heads.redhat.head,
 	},
@@ -29,6 +30,7 @@ module.exports = {
 		lastUpdated: false,
 		locales: {
 			"/": tree.main,
+			"/arch/": tree.arch,
 			"/debian/": tree.debian,
 			"/redhat/": tree.redhat,
 		},

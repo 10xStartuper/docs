@@ -7,6 +7,12 @@ module.exports = {
 			description: "Xinux O'zbekiston jamiyatiga xush kelibsiz",
 		},
 	},
+	arch: {
+		head: {
+			title: "Arch Linux | Xinux",
+			description: "Arch turkumiga oid bo'lgan Xinux qo'llanmasi",
+		},
+	},
 	debian: {
 		head: {
 			title: "Debian | Xinux",

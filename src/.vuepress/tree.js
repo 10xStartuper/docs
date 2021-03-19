@@ -47,6 +47,107 @@ module.exports = {
 			],
 		},
 	},
+	arch: {
+		selectText: "Turkum",
+		label: "Arch",
+		ariaLabel: "Turkumlar",
+		nav: [
+			{
+				text: "Asosiy",
+				link: "/",
+			},
+			{
+				text: "Ma'lumot",
+				link: "/arch/malumot/",
+			},
+			{
+				text: "Distribut",
+				ariaLabel: "Distributlar",
+				items: [
+					{
+						text: "Manjaro",
+						link: "/arch/distribut/Manjaro/",
+					},
+					{
+						text: "Black Arch",
+						link: "/arch/distribut/Black Arch/",
+					},
+					{
+						text: "Xeonix",
+						link: "/arch/distribut/Xeonix/",
+					},
+				],
+			},
+			{
+				text: "Tarmoq",
+				ariaLabel: "Tarmoqlarimiz",
+				items: socials,
+			},
+			{
+				text: "Dasturlar",
+				ariaLabel: "Dasturlarimiz",
+				items: apps,
+			},
+		],
+		sidebar: {
+			"/arch/malumot/": [
+				{
+					title: "Ma'lumotlar",
+					collapsable: false,
+					children: [""],
+				},
+			],
+			"/arch/jamoa/": [
+				{
+					title: "Jamoamiz",
+					collapsable: false,
+					children: [""],
+				},
+			],
+			"/arch/distribut/Manjaro/": [
+				{
+					title: "Manjaro",
+					collapsable: false,
+					children: [
+						"",
+						"/arch/distribut/Manjaro/ornatish",
+						"/arch/distribut/Manjaro/maslahatlar",
+						"/arch/distribut/Manjaro/interfeys",
+						"/arch/distribut/Manjaro/solishtirish",
+						"/arch/distribut/Manjaro/yuklash",
+					],
+				},
+			],
+			"/arch/distribut/Black Arch/": [
+				{
+					title: "Black Arch",
+					collapsable: false,
+					children: [
+						"",
+						"/arch/distribut/Black Arch/ornatish",
+						"/arch/distribut/Black Arch/maslahatlar",
+						"/arch/distribut/Black Arch/interfeys",
+						"/arch/distribut/Black Arch/solishtirish",
+						"/arch/distribut/Black Arch/yuklash",
+					],
+				},
+			],
+			"/arch/distribut/Xeonix/": [
+				{
+					title: "Xeonix",
+					collapsable: false,
+					children: [
+						"",
+						"/arch/distribut/Xeonix/ornatish",
+						"/arch/distribut/Xeonix/maslahatlar",
+						"/arch/distribut/Xeonix/interfeys",
+						"/arch/distribut/Xeonix/solishtirish",
+						"/arch/distribut/Xeonix/yuklash",
+					],
+				},
+			],
+		},
+	},
 	debian: {
 		selectText: "Turkum",
 		label: "Debian",
@@ -65,7 +166,7 @@ module.exports = {
 				ariaLabel: "Distributlar",
 				items: [
 					{
-						text: "Ubuntu",
+						text: "Manjaro",
 						link: "/debian/distribut/Ubuntu/",
 					},
 					{
@@ -77,7 +178,7 @@ module.exports = {
 						link: "/debian/distribut/MXLinux/",
 					},
 					{
-						text: "Raspbian",
+						text: "Black Arch",
 						link: "/debian/distribut/Raspbian/",
 					},
 					{
@@ -114,15 +215,15 @@ module.exports = {
 			],
 			"/debian/distribut/Ubuntu/": [
 				{
-					title: "Ubuntu",
+					title: "Manjaro",
 					collapsable: false,
 					children: [
 						"",
-						"/debian/distribut/Ubuntu/ornatish",
-						"/debian/distribut/Ubuntu/maslahatlar",
-						"/debian/distribut/Ubuntu/interfeys",
-						"/debian/distribut/Ubuntu/solishtirish",
-						"/debian/distribut/Ubuntu/yuklash",
+						"/debian/distribut/Manjaro/ornatish",
+						"/debian/distribut/Manjaro/maslahatlar",
+						"/debian/distribut/Manjaro/interfeys",
+						"/debian/distribut/Manjaro/solishtirish",
+						"/debian/distribut/Manjaro/yuklash",
 					],
 				},
 			],
@@ -170,15 +271,15 @@ module.exports = {
 			],
 			"/debian/distribut/Raspbian/": [
 				{
-					title: "Raspbian",
+					title: "Black Arch",
 					collapsable: false,
 					children: [
 						"",
-						"/debian/distribut/Raspbian/ornatish",
-						"/debian/distribut/Raspbian/maslahatlar",
-						"/debian/distribut/Raspbian/interfeys",
-						"/debian/distribut/Raspbian/solishtirish",
-						"/debian/distribut/Raspbian/yuklash",
+						"/debian/distribut/Black Arch/ornatish",
+						"/debian/distribut/Black Arch/maslahatlar",
+						"/debian/distribut/Black Arch/interfeys",
+						"/debian/distribut/Black Arch/solishtirish",
+						"/debian/distribut/Black Arch/yuklash",
 					],
 				},
 			],
