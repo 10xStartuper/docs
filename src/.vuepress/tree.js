@@ -94,7 +94,7 @@ module.exports = {
 				{
 					title: "Ma'lumotlar",
 					collapsable: false,
-					children: [""],
+					children: ["", "ornatish"],
 				},
 			],
 			"/arch/jamoa/": [
