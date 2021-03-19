@@ -7,13 +7,13 @@ qo'llanma eskirgan bo'lsa, muallifni bu haqida habardor qiling!
 
 :::
 
-O'rnatishni boshlashdan oldin sizlarni ushbu hatoliklar yuz berganda qo'rqmaslikni 
-ogohlantiraman. Bu dunyoda hamma xato qiladi va tabiy holki bu har bir muammo albatta
-o'z yechimiga ega. Faqat biroz vaqt ketqazib qilingan urinishlargina sizni oldinga yetaklaydi.
-Shunday ekan, hech qachon chekinmang! Endi kelingizlar, o'rnatish jarayonini komponentlarga bo'lib olamiz:
+O'rnatishni boshlashdan oldin sizlarni ushbu hatoliklar yuz berganda
+qo'rqmaslikni ogohlantiraman. Bu dunyoda hamma xato qiladi va tabiy holki bu har
+bir muammo albatta o'z yechimiga ega. Faqat biroz vaqt ketqazib qilingan
+urinishlargina sizni oldinga yetaklaydi. Shunday ekan, hech qachon chekinmang!
+Endi kelingizlar, o'rnatish jarayonini komponentlarga bo'lib olamiz:
 
-- [Asosiy komponent](#asosiy-komponent)
-
+-   [Asosiy komponent](#asosiy-komponent)
 
 ## Asosiy komponent
 
