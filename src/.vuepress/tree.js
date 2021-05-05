@@ -1,4 +1,3 @@
-const apps = require("./apps");
 const socials = require("./social");
 
 module.exports = {
@@ -25,9 +24,9 @@ module.exports = {
 				items: socials,
 			},
 			{
-				text: "Dasturlar",
-				ariaLabel: "Dasturlarimiz",
-				items: apps,
+				text: "Wiki",
+				link: "https://wiki.xinux.uz",
+				target: "_self"
 			},
 		],
 		sidebar: {
@@ -84,9 +83,9 @@ module.exports = {
 				items: socials,
 			},
 			{
-				text: "Dasturlar",
-				ariaLabel: "Dasturlarimiz",
-				items: apps,
+				text: "Wiki",
+				link: "https://wiki.xinux.uz",
+				target: "_self"
 			},
 		],
 		sidebar: {
@@ -193,9 +192,9 @@ module.exports = {
 				items: socials,
 			},
 			{
-				text: "Dasturlar",
-				ariaLabel: "Dasturlarimiz",
-				items: apps,
+				text: "Wiki",
+				link: "https://wiki.xinux.uz",
+				target: "_self"
 			},
 		],
 		sidebar: {
@@ -314,9 +313,9 @@ module.exports = {
 				items: socials,
 			},
 			{
-				text: "Dasturlar",
-				ariaLabel: "Dasturlarimiz",
-				items: apps,
+				text: "Wiki",
+				link: "https://wiki.xinux.uz",
+				target: "_self"
 			},
 		],
 		sidebar: {

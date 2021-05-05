@@ -24,4 +24,14 @@ module.exports = [
 			},
 		],
 	},
+	{
+		text: "Discord",
+		items: [
+			{
+				text: "Asosiy kanal",
+				link: "https://discord.gg/fH4PYYQ3Qy",
+				target: "_blank",
+			},
+		],
+	},
 ];
