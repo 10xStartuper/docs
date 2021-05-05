@@ -26,7 +26,7 @@ module.exports = {
 			{
 				text: "Wiki",
 				link: "https://wiki.xinux.uz",
-				target: "_self"
+				target: "_self",
 			},
 		],
 		sidebar: {
@@ -85,7 +85,7 @@ module.exports = {
 			{
 				text: "Wiki",
 				link: "https://wiki.xinux.uz",
-				target: "_self"
+				target: "_self",
 			},
 		],
 		sidebar: {
@@ -194,7 +194,7 @@ module.exports = {
 			{
 				text: "Wiki",
 				link: "https://wiki.xinux.uz",
-				target: "_self"
+				target: "_self",
 			},
 		],
 		sidebar: {
@@ -315,7 +315,7 @@ module.exports = {
 			{
 				text: "Wiki",
 				link: "https://wiki.xinux.uz",
-				target: "_self"
+				target: "_self",
 			},
 		],
 		sidebar: {
